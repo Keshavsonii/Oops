@@ -1,0 +1,16 @@
+int main() {
+  Rectangle r1;
+  Rectangle r2(5);
+  Rectangle r3(5, 10);
+
+  r1.sqArea();
+  cout << "Area of Rectangle r1 is: " << r1.getSqArea() << endl;
+
+  r2.rectArea();
+  cout << "Area of Rectangle r2 is: " << r2.getRectArea() << endl;
+
+  r3.rectArea();
+  cout << "Area of Rectangle r3 is: " << r3.getRectArea() << endl;
+
+  return 0;
+}
